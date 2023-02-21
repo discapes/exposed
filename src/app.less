@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind utilities;
+
+button,
+input[type='submit'] {
+	@apply rounded-md p-2 border border-stone-50 max-w-xs;
+	cursor: pointer;
+	&:hover {
+		@apply bg-stone-600;
+	}
+}
+
+input {
+	@apply rounded-md p-2 border border-stone-50 bg-transparent;
+}
+
+form {
+	@apply flex gap-5;
+}
+
+.center {
+	margin: auto;
+	padding: 40px 40px;
+	max-width: 1100px;
+}
+
+h1 {
+	@apply text-2xl font-bold;
+}
