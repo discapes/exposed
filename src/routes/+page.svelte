@@ -5,7 +5,6 @@
 
 	let game: {
 		players: string[];
-		active?: boolean;
 	};
 	let admin: boolean;
 	let answered = false;
@@ -63,7 +62,6 @@
 
 <div class="grow flex flex-col justify-center items-center gap-5 p-5">
 	{#if game}
-		<!-- <pre>{JSON.stringify(game, null, 2)}</pre> -->
 		<span>Game code is {game.num}</span>
 		<span
 			>Players: {game.players.length > 1

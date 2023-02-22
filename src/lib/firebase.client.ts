@@ -11,14 +11,14 @@ import type { ResolveFn } from 'vite';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-	apiKey: 'AIzaSyDxoFrPI7699sIjBGzl8Jp6pqluDTawm9k',
-	authDomain: 'so-me-22719.firebaseapp.com',
-	projectId: 'so-me-22719',
-	storageBucket: 'so-me-22719.appspot.com',
-	messagingSenderId: '497031276124',
-	appId: '1:497031276124:web:397e7b188827788f892899',
-	measurementId: 'G-VPYNL8GRHF'
-};
+	apiKey: "AIzaSyBHNStg-yELx8im2jahg5Aika5RlSqKwuk",
+	authDomain: "xpsd-2689f.firebaseapp.com",
+	projectId: "xpsd-2689f",
+	storageBucket: "xpsd-2689f.appspot.com",
+	messagingSenderId: "627605149750",
+	appId: "1:627605149750:web:96de897dd27f2bb640a097",
+	measurementId: "G-9NNWQVKTF8"
+  };
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
